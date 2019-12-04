@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.e74b2688-00ab-48d0-a297-e69007822a5a",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "94a8d8613bd94f6c6fc7f9d67a65f02b"
+        },
+        "interactionModel": {
+          "pt-BR": {
+            "eTag": "52bc24cacb76c3852b3126c9e80bf1a2"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:279809279753:function:ask-origens-cafe-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-origens-cafe-default",
+            "handler": "index.handler",
+            "revisionId": "69ea4065-ec76-4e76-ae6a-ce252d62b082",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}

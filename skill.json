@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Origens Café",
+          "examplePhrases": [
+            "Alexa abrir Origens Café",
+            "Alexa jogar Origens Café",
+            "Alexa iniciar Origens Café"
+          ],
+          "name": "Quiz Origens Café",
+          "description": "Quiz Origens Café é um jogo de perguntas e respostas para testar seus conhecimentos."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Nenhuma instrução para teste.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-origens-cafe-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
